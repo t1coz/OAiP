@@ -1,0 +1,3 @@
+/Users/hanna/Documents/labi/Panas/1-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hanna/Documents/labi/Panas/1-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hanna/Documents/labi/Panas/1-1/cmake-build-debug/CMakeFiles/1.dir
