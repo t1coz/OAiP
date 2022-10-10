@@ -1,3 +1,0 @@
-/Users/hanna/Documents/labi/3 laba/3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hanna/Documents/labi/3 laba/3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hanna/Documents/labi/3 laba/3/cmake-build-debug/CMakeFiles/3.dir
