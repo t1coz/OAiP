@@ -1,2 +1,2 @@
 # OAiP
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hawaiimagazine.com%2F13-hawaii-inspired-pineapple-products-that-youll-love%2F&psig=AOvVaw0TZd9t-sPwuDuaXGHt8hyQ&ust=1669738215848000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDrzNuh0fsCFQAAAAAdAAAAABAd)
+![alt text](https://www.incimages.com/uploaded_files/image/1920x1080/getty_517308428_2000200020009280818_338996.jpg)
