@@ -29,12 +29,12 @@
 3. В двумерном массиве (количество чисел в строке может быть различным, последнее число - -100.) в каждой четной строке продублировать нечетный элемент.
 
 # 7Laba
-__(In this lab we had to use pointer to a function for implementing menu)__
+>In this lab we had to use pointer to a function for implementing menu
 1. Дана строка. Найти самое часто встречающееся слово в ней.
 2. Дан символ C и строки S, S0. Удалить все слова, начинающиеся с символа C из строки S, которых нет в строке S0.
 
 # 8Laba
-__(In this lab we had to input data from terminal)__
+>In this lab we had to input data from terminal
 1. Отсортировать методом слияния массив строк по возрастанию количества слов.
 
 ![alt text](https://www.incimages.com/uploaded_files/image/1920x1080/getty_517308428_2000200020009280818_338996.jpg)
