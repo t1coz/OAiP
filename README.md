@@ -36,6 +36,8 @@
 # 8Laba
 >In this lab we had to input data from terminal.
 1. Отсортировать методом слияния массив строк по возрастанию количества слов.
+
+
 <p align="center">
-   <img src="https://i.gifer.com/origin/fe/fe82ea8fe5b5cc762a01ac549c3cc144.gif" alt="animated" />
+   <img src="https://i.pinimg.com/originals/4d/16/78/4d1678e171347c4402c231dad0394f0f.gif" alt="animated" />
 </p>
