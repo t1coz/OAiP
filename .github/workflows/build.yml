@@ -19,7 +19,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-c-cpp@v1
       - name: Run build-wrapper
         run: |
-         
+          cd 2ndTerm\2Sem1Lab
           New-Item -ItemType directory -Path build
           cmake -S . -B build
           build-wrapper-win-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} cmake --build build/ --config Release
