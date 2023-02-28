@@ -1,3 +1,4 @@
+# ***First Term, 7 labs.***
 # ***Consider this infromation if you want to find smth usefull from this slack.***
 # 1Laba
 1. Вычислить расстояние между двумя точками с координатами (х1, y1) и (х2, y2). Координаты точек вводятся с клавиатуры. Результат вывести с точностью до двух знаков после запятой.
