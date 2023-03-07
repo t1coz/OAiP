@@ -1,3 +1,0 @@
-D:/programms/Clion/projects/2Sem1Lab/cmake-build-debug/CMakeFiles/2Sem1Lab.dir
-D:/programms/Clion/projects/2Sem1Lab/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/programms/Clion/projects/2Sem1Lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
