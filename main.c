@@ -182,7 +182,193 @@
  *
  * 2+(3-4*5+6)-7/2*(1+2+(3*4+5*6*7*8)+9)
  *
+ * --------------------------------------------------(((queue)))
+ * 
+ * --------------------------------------------------------------------------------------------------------------------
+ *
+ * 8 Lecture
+ * --------------------------------------------------------------------------------------------------------------------
+ *
+ * void pop(FIFO**h, FIFO**t){
+ *      FIFO* temp = *h;
+ *      if(*h == *t){
+ *          *h = NULL;
+ *          *t = NULL;
+ *      }else{
+ *          *h = *h->next;
+ *      }
+ *      free(temp);
+ * }
+ *
+ * ------------------------------------------------(((Doubly linked list)))
+ * void pushHead(Deq** h, Deq**t, int num){
+ *      Deq* temp = realloc();
+ *      temp->next = NULL;
+ *      temp->prev = NULL;
+ *      temp->data = num;
+ *      if(*h == NULL){
+ *          *h = temp;
+ *          *t = temp;
+ *      }else{
+ *          temp->next = *h;
+ *          *h->prev = temp;
+ *          *h = temp;
+ *      }
+ * }
+ * void popHead(Deq** h, Deq**t){
+ *      (((like pop in )))
+ * }
+ *
+ * --------------------------------------------------------------------------------------------------------------------
+ *
+ * 9 Lecture
+ * --------------------------------------------------------------------------------------------------------------------
+ *
+ * struct ring{
+ *      int info;
+ *      ring *next
+ * };
+ * -------------------------------/////////////////////------------------------------
+ * //void pushBefore(ring **p, int a){
+//    ring* temp = calloc(1,sizeof(ring));
+//    temp->info = a;
+//    temp->next = NULL;
+//    if(*p!=NULL){
+//        ring *p2 = *p;
+//        while(*p2->next != *p){
+//            p2 = p2->next;
+//        }
+//        p2->next = temp;
+//        temp->next = *p
+//    }
+//}
+//void popAfter(ring **p){
+//    if(*p != NULL){
+//        ring* temp = *p->next;
+//        if(*p->next == *p){
+//            *p = NULL;
+//        }
+//    }
+//    else {
+//        *p->next = *p->next->next;
+//    }
+//    free(temp);
+//}
+//void popAfter(ring **p){
+//    if(*p!=NULL){
+//        if(*p == *p-next){
+//            ring *temp = *p;
+//            free(temp);
+//            *p = NULL;
+//        }else{
+//            ring *p2 = *p;
+//            while(p2->next->next != *p){
+//                p2 = *p->next;
+//            }
+//            ring *temp = p2->next;
+//            p2->next = *p;
+//            free(temp);
+//        }
+//    }
+//}
+ ----------------///////////////////////--------------------///////////////////////------
+ * void push(ring *p, int a){
+ *      ring *temp = calloc(1, sizeof(ring));
+ *      temp->info = a
+ *      temp->next = NULL;
+ *      if(*p != NULL){
+ *          ring *
+ *      }
+ * }
+void push(struct Ring** p, int x){
+    struct Ring* temp;
+    temp = (struct Ring *) calloc (1,sizeof(struct Ring);
+    temp->next = NULL;
+    temp->data = x;
+    if (*p == NULL){
+            temp->next = temp;
+            *p = temp;
+    }else{
+        temp->next = (*p)->next;
+        (*p)->next = temp;
+    }
+}
+void pop(struct Ring** p){
+	if (*p==NULL) {printf(“EMPTY\n”); return;}
+	if (*p== (*p)->next){
+		free(*p);
+		*p = NULL;
+	}else{
+		Ring* temp;
+		temp = (*p)->next;
+		(*p)->next = (*p)->next->next;
+		free( temp);
+	}
+}
+void print(Ring* p){
+    struct Ring* temp = p;
+    if (p == NULL)
+        printf(“EMPTY\n”);
+    else
+    do{
+        printf(“%3d”, temp->data);
+        temp = temp->next;
+    }while (temp != p);
+
+    printf(“\n”);
+}
+---------------------------двунапраленное кольцо------------------------------------------
 */
+//void push(struct Ring** p, int x){
+//    struct Ring* temp;
+//    temp = (struct Ring *) calloc (1,sizeof(struct Ring);
+//    temp->next = NULL;
+//    temp->prev = NULL;
+//    temp->data = x;
+//    if (*p == NULL){
+//        temp->next = temp;
+//        temp->prev = temp;
+//        *p = temp;
+//    }else{
+//        temp->next = (*p)->next;
+//        (*p)->next->prev = temp;
+//        (*p)->next = temp;
+//        temp->prev = *p;
+//        *p = temp;
+//    }
+//}
+//void pop(struct Ring** p)
+//{
+//    if (*p == NULL)
+//    {
+//        printf(“EMPTY\n”);
+//        return ;
+//    }
+//    if (*p == (*p)->next)
+//    {
+//        free(*p);
+//        *p = NULL;
+//    }
+//    else
+//    {
+//        Ring* temp;
+//        temp = (*p)->next;
+//        (*p)->next = temp->next;
+//        temp->next->prev = *p;
+//        free(temp);
+//    }
+//}
+//void print_next(Ring* p){
+//    struct Ring* temp = p;
+//    if (p == NULL) printf(“EMPTY\n”);
+//    else
+//    do{
+//        printf("%d", temp->data);
+//        temp = temp->next;
+//    } while (temp != p);
+//
+//    printf("\n");
+//}
 
 int main(){
 
