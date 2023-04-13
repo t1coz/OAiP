@@ -272,14 +272,6 @@
 //    }
 //}
  ----------------///////////////////////--------------------///////////////////////------
- * void push(ring *p, int a){
- *      ring *temp = calloc(1, sizeof(ring));
- *      temp->info = a
- *      temp->next = NULL;
- *      if(*p != NULL){
- *          ring *
- *      }
- * }
 void push(struct Ring** p, int x){
     struct Ring* temp;
     temp = (struct Ring *) calloc (1,sizeof(struct Ring);
@@ -294,7 +286,10 @@ void push(struct Ring** p, int x){
     }
 }
 void pop(struct Ring** p){
-	if (*p==NULL) {printf(“EMPTY\n”); return;}
+	if (*p==NULL) {
+         printf(“EMPTY\n”);
+         return;
+    }
 	if (*p== (*p)->next){
 		free(*p);
 		*p = NULL;
