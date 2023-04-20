@@ -364,7 +364,34 @@ void print(Ring* p){
 //
 //    printf("\n");
 //}
-
+//* --------------------------------------------------------------------------------------------------------------------
+//*
+//* 10 Lecture
+//* --------------------------------------------------------------------------------------------------------------------
+//*
+//void deleteEachN(Ring **p, int n){
+//    Ring *temp ;
+//    while(*p != *p->next){
+//        temp = p;
+//        int i = 1;,
+//        while (i< n-1){
+//            temp = temp->next;
+//            i++;
+//        }
+//        *p = temp->next->next;
+//        popAfter(*temp);
+//    }
+//}
+//------------------------------          mixed lists
+//struct list{
+//    struct list *next;
+//    int info;
+//};
+//------------------------------          dict
+//struct  dict{
+//    char key;
+//    int value;
+//};
 int main(){
 
     return 0;
