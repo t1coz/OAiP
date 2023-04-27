@@ -415,6 +415,11 @@ void print(Ring* p){
 //        node = node->right;
 //    return node;
 //}
+//tree *minimum(tree *node){
+//    if (node->left == NULL)
+//        return node;
+//    return minimum(node->left);
+//}
 //void create(tree **node, int a){
 //    tree *ptr;
 //    if (NULL == ((*node))){
