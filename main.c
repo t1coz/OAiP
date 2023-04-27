@@ -392,6 +392,58 @@ void print(Ring* p){
 //    char key;
 //    int value;
 //};
+//* --------------------------------------------------------------------------------------------------------------------
+//*
+//* 11 Lecture (binary tree)
+//* --------------------------------------------------------------------------------------------------------------------
+//*pop, push, search
+//tree * del(tree *node, int z){
+//    if (node == NULL)
+//        return node;
+//    if (z < node->data)
+//        node->left = del((node->left), z);
+//    else if (z > node->data)
+//        node->right = del(node->right, z);
+//    else if (node->left != NULL && node->right != NULL){
+//        node->data = minimum(node->right)->data;
+//        node->right = del(node->right, node->data);
+//    }
+//    else
+//    if (node->left != NULL)
+//        node = node->left;
+//    else
+//        node = node->right;
+//    return node;
+//}
+//void create(tree **node, int a){
+//    tree *ptr;
+//    if (NULL == ((*node))){
+//        ((*node)) = (tree *)calloc(1, sizeof(tree)); //�������� ������ ��� ����� ������
+//        ((*node))->data = a; //���������� ������ � �����
+//        ((*node))->left = NULL; //��������� �������������� �������� �� ��������� ������
+//        ((*node))->right = NULL;
+//    }else if (a < ((*node))->data){
+//        if (((*node))->left != NULL) create(&((*node))->left, a); //��� ������ �������� �������� ������� �� ��������� �������
+//        else //���� ������� ������� ���� �������, ��
+//        {
+//            ((*node))->left = (tree *)calloc(1, sizeof(tree));  //�������� ������ ������ ��������.
+//            ((*node))->left->left = ((*node))->left->right = NULL; //� ������ �������� ����� ���� ����� � ������ ���������, �������������� �� ��������
+//            ((*node))->left->data = a; //���������� � ����� �������� ������������ �������
+//        }
+//    }
+//
+//
+//    if (a>((*node))->data)   //���� ������������� ������� x ������ ��� ������� x �� ����� ������, ������ ������
+//    {
+//        if (((*node))->right != NULL) create(&(*node)->right,a); //��� ������ �������� ����������� ������� �� ��������� �������
+//        else //���� ������� ������� ���� �������, ��
+//        {
+//            ((*node))->right = (tree *)calloc(1, sizeof(tree));   //�������� ������ ������� ��������.
+//            ((*node))->right->left = ((*node))->right->right = NULL; //� ������� �������� ����� ���� ����� � ������ ���������, �������������� �� ��������
+//            ((*node))->right->data = a; //���������� � ������ �������� ������������ �������
+//        }
+//    }
+//}
 int main(){
 
     return 0;
